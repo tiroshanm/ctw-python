@@ -17,8 +17,6 @@ from config import print_configs
 from common.middleware import Telemetry, RequestValidation
 
 from financial.repository.mysql import FinancialRepository, StatisticsRepository
-# DO NOT CHANGE THE FOLLOWING. It affects responder methods in API classes
-# INDIVIDUAL_SUFFIX = 'one'
 from financial.services.financial_service import FinancialService
 from financial.services.statistics_service import StatisticsService
 
