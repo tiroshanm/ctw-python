@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ### Step 3: Set API Key
 Go to https://www.alphavantage.co/support/#api-key and get an API key.
-Then set the value of `FINANCE_API_CLIENT_API_KEY` in the ".env" file with the API key you obtained in Step 2.
+Then set the value of `FINANCE_API_CLIENT_API_KEY` in the `.env` file with the API key you obtained.
 
 ### Step 4: Setup financial_data locally
 Run the `get_raw_data.py` to download the financial data and populate data in SQLite database.
